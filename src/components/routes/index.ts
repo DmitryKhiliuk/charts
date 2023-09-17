@@ -1,1 +1,1 @@
-export { RoutesComponent } from './routes-component';
+export { RoutesOmponent } from './routesComponent';

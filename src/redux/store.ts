@@ -1,9 +1,10 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import thunkMiddleware from 'redux-thunk'
 import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
+import {chartsReducer} from "./chartsReducer";
 
 export const rootReducer = combineReducers({
-
+    charts: chartsReducer
 })
 
 export const store = configureStore({

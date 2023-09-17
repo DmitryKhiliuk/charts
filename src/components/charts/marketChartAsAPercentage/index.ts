@@ -1,0 +1,1 @@
+export { MarketChartAsAPercentage } from './marketChartAsAPercentage';
